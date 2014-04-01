@@ -1,0 +1,29 @@
+{
+  "name": "spawn-stream",
+  "version": "0.1.0",
+  "description": "Transform stream wrapper around child_process.spawn",
+  "main": "spawnStream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theporchrat/node-spawn-stream"
+  },
+  "keywords": [
+    "transform",
+    "shell",
+    "spawn",
+    "cmd",
+    "cli"
+  ],
+  "author": "Jason Quense @theporchrat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theporchrat/node-spawn-stream/issues"
+  },
+  "homepage": "https://github.com/theporchrat/node-spawn-stream",
+  "dependencies": {
+    "readable-stream": "~1.0.26-2"
+  }
+}
